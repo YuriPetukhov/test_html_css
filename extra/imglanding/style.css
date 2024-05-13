@@ -1,0 +1,39 @@
+.link-header {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+}
+.text-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+.button-signup {
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ED4C5C;
+}
+.subtitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+.text {
+    font-size: 14px;
+    line-height: 140%;
+}
+.link {
+    font-size: 14px;
+    line-height: 140%;
+    color: #ED4C5C;
+}

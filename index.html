@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ホームページ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <a href="index.html"><img src="img/logo.svg" alt="ロゴ"></a>
@@ -12,43 +15,44 @@
             <input type="text">
         </form>
         <nav>
-            <a href="catalog.html">カタログ</a>
-            <a href="basket.html">カート</a>
+            <a class="header-link" href="catalog.html">カタログ</a>
+            <a class="header-link" href="basket.html">カート</a>
         </nav>
     </header>
     <section>
-        <h1>ご家庭にふさわしい商品が全て揃っています。</h1>
-        <p>当社の家具は、あなたを表現します。</p>
-        <a href="catalog.html">カタログへ移動</a>
+        <h1 class="title">ご家庭にふさわしい商品が全て揃っています。</h1>
+        <p class="header-paragraph">当社の家具は、あなたを表現します。</p>
+        <a class="link-catalog" href="catalog.html">カタログへ移動</a>
     </section>
     <section>
-        <h2>特別オファー</h2>
+        <h2 class="subtitle">特別オファー</h2>
         <img src="img/product1.jpg" alt="">
-        <h3>VILORAチェア</h3>
-        <p>やわらかくて居心地の良い、整然とした、おしゃれな家具。弾力のあるクッション、座面、そして心地よい生地。</p>
-        <p>21 000</p>
-        <p>28 000</p>
+        <h3 class="title-product">VILORAチェア</h3>
+        <p class="product-description">やわらかくて居心地の良い、整然とした、おしゃれな家具。弾力のあるクッション、座面、そして心地よい生地。</p>
+        <p class="price-new">21 000</p>
+        <p class="price-old">28 000</p>
     </section>
 
     <footer>
         <a href="index.html"><img src="img/logo.svg" alt="ロゴ"></a>
-        <h4>メニュー</h4>
-        <a href="index.html">ホームページ</a>
-        <a href="catalog.html">カタログ</a>
-        <a href="basket.html">カート</a>
-        <h4>お問い合わせ</h4>
-        <a href="tel:+">090-1234-5678</a>
-        <a href="mailto:">help@interier.com</a>
+        <h4 class="title-footer">メニュー</h4>
+        <a class="link-footer" href="index.html">ホームページ</a>
+        <a class="link-footer" href="catalog.html">カタログ</a>
+        <a class="link-footer" href="basket.html">カート</a>
+        <h4 class="title-footer">お問い合わせ</h4>
+        <a class="link-footer" href="tel:+">090-1234-5678</a>
+        <a class="link-footer" href="mailto:">help@interier.com</a>
         <a href="#"><img src="img/inst.svg" alt="インスタグラム"></a>
         <a href="#"><img src="img/twitter.svg" alt="ツイッター"></a>
         <a href="#"><img src="img/facebook.svg" alt="フェイスブック"></a>
         <form action="#">
-            <p>最新のニュースやアップデートをお届けします。</p>
-            <input type="email" name="" id="">
-            <button type="submit">登録する</button>
+            <p class="form-footer">最新のニュースやアップデートをお届けします。</p>
+            <input class="form-input-footer" type="email" name="" id="">
+            <button class="button-footer" type="submit">登録する</button>
 
         </form>
     </footer>
-    
+
 </body>
+
 </html>
