@@ -1,15 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    height: 76px;
+}
 .header-link {
     font-size: 16px;
     line-height: 20px;
+}
+.header-link:hover {
+    text-decoration: underline;
+    color: gray
 }
 .title {
     font-weight: 600;
     font-size: 64px;
     line-height: 70px;
+    margin-top: 64px;
+    margin-bottom: 16px;
 }
 .header-paragraph {
     font-size: 24px;
     line-height: 32px;
+    margin-bottom: 16px;
 }
 .link-catalog {
     font-size: 16px;
@@ -20,17 +37,20 @@
     font-size: 48px;
     line-height: 59px;
     color: #000000;
+    margin-bottom: 32px;
 }
 .title-product {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+    margin-bottom: 8px;
 }
 .product-description {
     font-size: 14px;
     line-height: 17px;
     color: #888888;
+    margin-bottom: 12px;
 }
 .price-new {
     font-weight: 500;
@@ -50,6 +70,7 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+    margin-bottom: 12px;
 }
 .link-footer {
     font-weight: 500;
@@ -58,10 +79,14 @@
     color: #888888;
     text-decoration: none;
 }
+.link-footer:hover {
+    color: gray;
+}
 .form-footer {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
+    margin-bottom: 16px;
 }
 .form-input-footer {
     background: #FFFFFF;
